@@ -1,0 +1,17 @@
+package zadaca1;
+
+public class Convertor implements IConversion {
+
+	@Override
+	public double convertInches(double in) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double convertCentimeters(double cm) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,17 @@
+package zadaca2;
+
+public class Konvertor implements IKonverzija {
+
+	@Override
+	public double convertKg(double kg) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double convertLb(double lb) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,26 @@
+package zadaca4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Glavna {
+
+	public static void main(String[] args) {
+			List<Fakultet> fakultet = new ArrayList<Fakultet>();
+			Fakultet fakultet1 = new Fakultet("FIKT",2,150);
+			Fakultet fakultet2 = new Fakultet("TFB",4,200);
+			Fakultet fakultet3 = new Fakultet("FINKI",6,500);
+			Fakultet fakultet4 = new Fakultet("Ekonomski Fakultet-Prilep",3,250);
+			Fakultet fakultet5 = new Fakultet("PMF",4,600);
+			
+			fakultet.add(fakultet1);
+			fakultet.add(fakultet2);
+			fakultet.add(fakultet3);
+			fakultet.add(fakultet4);
+			fakultet.add(fakultet5);
+			
+			System.out.println("Fakulteti: " + fakultet);
+
+	}
+
+}

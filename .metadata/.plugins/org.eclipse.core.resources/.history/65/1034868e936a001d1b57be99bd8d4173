@@ -1,0 +1,5 @@
+package zadaca5;
+
+public class Brod extends Transport {
+
+}

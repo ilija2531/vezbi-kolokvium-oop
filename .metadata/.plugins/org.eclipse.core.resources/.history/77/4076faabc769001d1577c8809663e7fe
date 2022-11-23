@@ -1,0 +1,16 @@
+package zadaca1;
+
+public class Glavna {
+
+	public static void main(String[] args) {
+		
+		Convertor konv1 = new Convertor();
+		Convertor konv2 = new Convertor();
+		konv1.convertCentimeters(5);
+		System.out.println("5 cm vo inchi: " + konv1);
+		konv2.convertInches(3);
+		System.out.println("3 inchi vo cm: " + konv2);
+
+	}
+
+}

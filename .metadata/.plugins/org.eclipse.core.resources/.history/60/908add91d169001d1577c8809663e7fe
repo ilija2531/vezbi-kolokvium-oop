@@ -1,0 +1,13 @@
+package zadaca4;
+
+public class Sportist {
+	public String ime;
+	public String prezime;
+	public int godinanaraganje;
+	public double godisnazarabotuvacka;
+	
+	public Sportist() {
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package zadaca7;
+
+public class Convertor implements IConvertor {
+
+	@Override
+	public double convertDollartoDenari(double dollar) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double convertDenartoEvra(double denar) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
